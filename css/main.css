@@ -891,22 +891,12 @@ button:focus {
       width: 100%;
       font-size: 20px;
       font-weight: 700;
-      color: #ffffff;
-      opacity: 0;
-      -webkit-animation: slideLeft 1s forwards;
-      -moz-animation: slideLeft 1s forwards;
-      -o-animation: slideLeft 1s forwards;
-      animation: slideLeft 1s forwards;}
+      color: #ffffff;}
     #how-box .how-boxitem-light p {
       width: 100%;
       font-size: 20px;
       font-weight: 700;
-      color: #2d2d2d;
-      opacity: 0;
-      -webkit-animation: slideLeft 1s forwards;
-      -moz-animation: slideLeft 1s forwards;
-      -o-animation: slideLeft 1s forwards;
-      animation: slideLeft 1s forwards;}
+      color: #2d2d2d;}
     #how-box span{
       color: #bf0d15;
       font-size: 28px;
@@ -924,14 +914,6 @@ button:focus {
     width: 70%;
     display: inline-block;
     vertical-align: middle;}
-
-    #criteria-list ul{
-      opacity: 0;
-    -webkit-animation: slideLeft 1s 1.5s forwards;
-    -moz-animation: slideLeft 1s 1.5s forwards;
-    -o-animation: slideLeft 1s 1.5s forwards;
-    animation: slideLeft 1s 1.5s forwards;
-    }
 
     .criteria-list img{
      content: '';

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/aos.css">
   </head>
   
   <body id="subpage">
@@ -197,17 +197,17 @@
       </div>
 
       <div id="how-box" class="row pt-5">
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark" data-aos="fade-right">
           <div class="how-boxitem-dark">
             <span>1.</span>
             <p>Nos contactas <br>y cotizas</p></div>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light" data-aos="fade-right" data-aos-delay="300">
            <div class="how-boxitem-light">
             <span>2.</span>
             <p>Agendamos <br>tu inspección</p></div>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark" data-aos="fade-right" data-aos-delay="600">
           <div class="how-boxitem-dark">
             <span>3.</span>
             <p>Inspeccionamos <br>tu propiedad</p></div>
@@ -215,17 +215,17 @@
       </div>
 
       <div id="how-box" class="row pb-5">
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light" data-aos="fade-right" data-aos-delay="900">
           <div class="how-boxitem-light">
             <span>4.</span>
             <p>Realizamos un <br>informe consolidado</p></div>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-dark" data-aos="fade-right" data-aos-delay="1200">
            <div class="how-boxitem-dark">
             <span>5.</span>
             <p>Veriﬁcamos que lo reparado esté en conformidad</p></div>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light">
+        <div class="col-lg-4 col-md-4 col-xs-12 how-works-light" data-aos="fade-right" data-aos-delay="1500">
           <div class="how-boxitem-light">
             <span>6.</span>
             <p>Recepciona tu propiedad <br>con total tranquilidad</p></div>
@@ -441,7 +441,7 @@
         <!-- Start Row -->
         <div class="row pricing-tables">
          <!--  Start Col -->
-          <div class="col-lg-3 col-md-3 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-xs-12" data-aos="fade-right">
             <div class="pricing-table text-center">
               <div class="pricing-details">
                 <div class="pricing-property">Propiedades Nuevas</div>
@@ -465,7 +465,7 @@
           </div>
            <!--  End Col -->
          <!--  Start Col -->
-          <div class="col-lg-3 col-md-3 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-xs-12" data-aos="fade-right" data-aos-delay="300">
             <div class="pricing-table text-center">
               <div class="pricing-details">
                 <div class="pricing-property">Propiedades Nuevas</div>
@@ -495,7 +495,7 @@
           </div>
            <!--  End Col -->
          <!--  Start Col -->
-          <div class="col-lg-3 col-md-3 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-xs-12" data-aos="fade-right" data-aos-delay="600">
             <div class="pricing-table text-center">
               <div class="pricing-details">
                 <div class="pricing-property">Propiedades Nuevas</div>
@@ -529,7 +529,7 @@
            <!--  End Col -->
 
            <!--  Start Col -->
-          <div class="col-lg-3 col-md-3 col-xs-12">
+          <div class="col-lg-3 col-md-3 col-xs-12" data-aos="fade-right" data-aos-delay="900">
             <div class="pricing-table text-center">
               <div class="pricing-details">
                 <div class="pricing-property">Propiedades Usadas</div>                <ul>
@@ -673,6 +673,12 @@
     <script src="js/nivo-lightbox.js"></script>     
     <script src="js/jquery.magnific-popup.min.js"></script>      
     <script src="js/main-subpage.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
     
   </body>
 </html>

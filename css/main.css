@@ -927,10 +927,10 @@ button:focus {
 
     #criteria-list ul{
       opacity: 0;
-    -webkit-animation: slideLeft 1s .5s forwards;
-    -moz-animation: slideLeft 1s .5s forwards;
-    -o-animation: slideLeft 1s .5s forwards;
-    animation: slideLeft 1s .5s forwards;
+    -webkit-animation: slideLeft 1s 1.5s forwards;
+    -moz-animation: slideLeft 1s 1.5s forwards;
+    -o-animation: slideLeft 1s 1.5s forwards;
+    animation: slideLeft 1s 1.5s forwards;
     }
 
     .criteria-list img{
